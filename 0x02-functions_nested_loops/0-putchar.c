@@ -1,18 +1,21 @@
-#include <unistd.h>
-#include "_putchar.c"
+#include "main.h"
 
 /**
- * main - Check description
- * Description: It prints the word _putchar.c, followed by a new line.
- * Return: 0.
+ * main - Entry point
+ * Description: prints _putchar, followed by a new line
+ *
+ * Return: always 0
  */
 int main(void)
 {
-	char word[11] = "_putchar.c";
-	int i;
-
-	for (i = 0; i < 9; i++)
-		_putchar(word[i]);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 
 	return (0);
